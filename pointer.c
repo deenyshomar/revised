@@ -18,5 +18,6 @@ int main(void)
 	*p = 20;
 
 	printf("the value of i is : %d\n", i);
+	printf("the address of i is %p\n", p);
 	return(0);
 }
