@@ -23,5 +23,7 @@ int main(void)
 	printf("value of i before function call : %d\n", i);
 	increament(j);
 	printf("value of i after function call : %d\n", i);
+	increament(&i);
+	printf("value of i after another call but using '&' : %d\n", i);
 	return(0);
 }
