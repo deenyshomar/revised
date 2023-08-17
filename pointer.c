@@ -19,5 +19,6 @@ int main(void)
 
 	printf("the value of i is : %d\n", i);
 	printf("the address of i is %p\n", p);
+	printf("using dereferencing : value of i is : %d\n", *p);
 	return(0);
 }
