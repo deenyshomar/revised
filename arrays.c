@@ -18,5 +18,6 @@ int main(void)
 
 	printf("index 2 is : %d\n", a[2]);
 	printf("size of the array is : %zu\n", sizeof a);
+	printf("number of element of the array is : %ld\n", (sizeof a / sizeof a[0]));
 	return(0);
 }
