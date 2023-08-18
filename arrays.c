@@ -17,6 +17,6 @@ int main(void)
 	a[3] = 1;
 
 	printf("index 2 is : %d\n", a[2]);
-
+	printf("size of the array is : %zu\n", sizeof a);
 	return(0);
 }
