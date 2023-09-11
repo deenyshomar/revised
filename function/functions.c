@@ -52,3 +52,13 @@ int foo(void)
 {
 	return 1234;
 }
+
+void double_arrays(int *a, int len)
+ {
+ for (int i = 0; i < len; i++)
+ {
+    a[i] = a[i] * 2;
+    printf("%d\t", a[i]);
+ }
+ printf("\n");
+ }

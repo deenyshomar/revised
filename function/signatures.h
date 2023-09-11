@@ -9,6 +9,7 @@ void times2(int *, int);
 void times3(int *, int);
 void times4(int *, int);
 int foo(void);
+void double_arrays(int *a, int len);
 
 
 #endif

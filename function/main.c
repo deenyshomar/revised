@@ -3,10 +3,6 @@
 
 int main(void)
 {
-    int a;
-    int *p;
-    p = &a;
-    a = 5;
-    Increament(&a);
-    printf("%d\n", a);
+    int x[5] = {2, 4, 6, 8, 10};
+    double_arrays(x, 5);
 }
