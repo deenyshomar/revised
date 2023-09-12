@@ -8,16 +8,9 @@ struct car
 };
 int main(void)
 {
-    struct car mercedence;
-    mercedence.name = "benz";
-    mercedence.price = 40999.99;
-    mercedence.speed = 180;
+    struct car mercedence = {"4matic", 40999.99, 180};
+    struct car honda = {"Honda civic", 1234.56, 170};
 
-    struct car honda;
-    honda.name = "Honda Civic";
-    honda.price = 2345.22;
-    honda.speed = 170;
-
-    printf("The car name is %s\nThe car price is %f\nThe car speed is %d\n", mercedence.name, mercedence.price, mercedence.speed);
+    printf("The car name is %s\nThe car price is %f\nThe car speed is %d\n\n", mercedence.name, mercedence.price, mercedence.speed);
     printf("The car name is %s\nThe car price is %f\nThe car speed is %d\n", honda.name, honda.price, honda.speed);
 }
