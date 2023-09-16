@@ -16,4 +16,5 @@ int main(void)
     fputc('\n', fp);
     fprintf(fp, "x = %d\n", x);
     fputs("Hello, world\n", fp);
+    fclose(fp);
 }
