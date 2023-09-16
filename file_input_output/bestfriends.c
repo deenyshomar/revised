@@ -12,7 +12,7 @@ int main(void)
     while(fscanf(fp, "%s %f %d", Name, &DateOfBirth, &YearWeMet) != EOF)
     {
         ++linecount;
-        printf("%d : Name : %s | Date of Birth : %.2f | Year we met : %d\n", linecount, Name, DateOfBirth, YearWeMet);
+        printf("%d.Name : %s | Date of Birth : %.2f | Year we met : %d\n", linecount, Name, DateOfBirth, YearWeMet);
     }
     fclose(fp);
 }
