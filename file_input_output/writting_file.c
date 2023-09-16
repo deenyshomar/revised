@@ -11,7 +11,7 @@ int main(void)
     FILE *fp;
     int x = 64;
 
-    fp = fopen("output.txt", "w");
+    fp = stdout;
     fputc('Z', fp);
     fputc('\n', fp);
     fprintf(fp, "x = %d\n", x);
